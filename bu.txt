@@ -1,0 +1,39 @@
+<div class="container mx-auto pt-32">
+    <div class="flex !gap-16 md:!gap-24 flex-wrap justify-center lg:justify-start">
+            <a href="#" class="h-auto w-full md:w-[520px] lg:w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-[#9FC3FF] focus:outline-2 focus:outline-[#9FC3FF] p-20  sm:px-16 sm:py-24 grid auto-cols-auto auto-rows-auto gap-y-16 gap-x-16 ">
+            <span class="h-96 w-96 sm:h-96 sm:w-96 rounded-full bg-cover bg-no-repeat bg-[url('https://www.copaair.com/promotions/airtrafix-pics/square/SCL-2-270x270.jpg')]  border-2 border-grey-0  outline outline-2 outline-grey-500  col-start-1 sm:col-end-1 row-start-1 row-end-3 sm:row-end-1 self-center justify-self-center sm:justify-self-start ">
+            </span>
+
+            <span class="flex flex-col col-start-2 col-end-4 sm:col-start-2 sm:col-end-3 sm:row-start-1 sm:row-end-1 sm:self-center">
+                <span class="font-heading font-heading-bold text-primary text-16/24 h-auto">Miami (SDQ)</span>
+                <span class="font-heading font-heading-bold text-primary text-16/24 h-auto mb-8">a Panama (PTY)</span> 
+                <span class="flex h-auto gap-4 items-center">
+                    <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
+                    <p class="font-sans font-body-normal text-primary text-caption">Jun 12 - Jun 24 · Ida y vuelta</p>
+                </span>
+            </span>
+            
+            
+            <span class="flex flex-col col-start-2 col-end-3 sm:col-start-3 sm:col-end-3  row-start-2 row-end-2 sm:row-start-1 sm:row-end-1 items-end sm:self-center">
+                <span class="font-heading font-heading-semibold text-grey-600 text-h3 line-through self-end">COP 3.345.879</span>
+                <span class="font-heading font-heading-bold text-primary text-h2">
+                    <span class="font-sans font-body-light text-primary text-caption">Desde <span class="font-heading font-heading-bold text-primary text-20/32">COP </span></span>1.342.343<sup>*</sup>
+                </span>
+            </span>
+            <img class="w-16 self-end sm:self-center col-start-3 sm:col-start-4 row-start-2 sm:row-start-1 row-end-2 justify-self-end pb-8" src="https://www.copaair.com/promotions/destinations/icons/arrow-icon.svg" alt="">
+        </a>
+
+          <a href="#" class="h-auto w-full md:w-[520px] lg:w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-[#9FC3FF] focus:outline-2 focus:outline-[#9FC3FF] p-20  sm:px-16 sm:py-24 grid">
+          
+          
+          </a>
+        
+
+    </div>
+
+    
+
+    <p class="!font-body-normal !font-sans !text-14/20 !text-center pt-16">*Aplican restricciones, consulte nuestros <a
+        href="terminos-y-condiciones#destinoDelMes" target="_blank" rel="noopener"><span class=" !text-primary hover:!underline" >T&eacute;rminos y
+            condiciones</span></a>.</p>
+</div>
