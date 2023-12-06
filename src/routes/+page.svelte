@@ -4,7 +4,7 @@
                 xs:w-full 
                 sm:w-full 
                 md:w-full 
-                lg:w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-[#9FC3FF] focus:outline-2 focus:outline-[#9FC3FF] grid gap-x-16 gap-y-16 
+                lg:!w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-[#9FC3FF] focus:outline-2 focus:outline-[#9FC3FF] grid gap-x-16 gap-y-16 
                 xs:grid-cols-[8px_96px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
                 sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] 
                 md:grid-cols-[8px_96px_auto_8px] md:grid-rows-[8px_auto_auto_8px] 
