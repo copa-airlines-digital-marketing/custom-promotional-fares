@@ -3,7 +3,7 @@
   
 </script>
 
-<<<<<<< HEAD
+
 <div class="container mx-auto !py-32">
   <div class="!mb-24 grid grid-cols-3 !grid-rows-2">
     <label for="promocardholderoriginselect" class=" xs:row-start-1 xs:row-end-1 xs:col-start-1 xs:col-end-3 row-start-1 row-end-1 col-start-1 col-end-1 self-end">Selecciona tu origen:</label>
@@ -29,15 +29,3 @@
       href="terminos-y-condiciones#destinoDelMes" target="_blank" rel="noopener"><span class=" !text-primary hover:!underline" >T&eacute;rminos y
           condiciones</span></a>.</p>
 </div>
-
-
-=======
-<div class="container !mx-auto">
-  <ol class="grid xs:grid-cols-1 xs:grid-rows-1 xs:gap-12 sm:grid-cols-1 sm:grid-rows-1 sm:gap-12 md:grid-cols-2 md:grid-rows-1 md:gap-12 lg:grid-cols-2 lg:grid-rows-1 lg:gap-16 lg:!justify-items-center grid-flow-row">
-         <slot />
-     </ol>
-</div>
-      <p class="!font-body-normal !text-grey-600 !font-sans !text-14/20 !text-center !pt-16">*Aplican restricciones, consulte nuestros <a
-      href="terminos-y-condiciones#destinoDelMes" target="_blank" rel="noopener"><span class=" !text-primary hover:!underline" >T&eacute;rminos y
-          condiciones</span></a>.</p>
->>>>>>> 95f7334d54e867e5de18d2b5d2ea7903c0361d02
