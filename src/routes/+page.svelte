@@ -1,55 +1,224 @@
+<script> 
+    import Select from '$lib/components/Select.svelte';
+import { getTypography } from '../lib/components/foundations/typography';
+  </script>
 
 
 <li class="w-full h-full">
     <a class="
-    grid overflow-hidden
-     xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
-     sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] 
-     md:grid-cols-[8px_128px_auto_8px] md:grid-rows-[8px_auto_auto_8px] 
-     lg:grid-cols-[8px_128px_auto_8px] lg:grid-rows-[8px_auto_8px]
-    outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight " href="google.com" role="button" trfx-booking="" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
-        <img class="w-full h-full col-start-1 col-end-3 row-span-full object-cover" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
+        grid overflow-hidden
+        xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
+        xs-567:grid-cols-[8px_96px_auto_auto_8px] xs-567:grid-rows-[8px_auto_8px] xs-567:items-center 
+        sm:grid-cols-[8px_96px_auto_auto_8px] sm:grid-rows-[8px_auto_8px] 
+        md:!grid-cols-[8px_128px_auto_8px] md:!grid-rows-[8px_auto_auto_8px] 
+        md-1248:!grid-cols-[8px_124px_auto_auto_8px] md-1248:!grid-rows-[8px_auto_8px]
+        lg:!grid-cols-[8px_124px_auto_auto_8px] lg:!grid-rows-[8px_auto_8px]
+        outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight" href="#googl" role="button" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
+            <img class="w-full h-full col-start-1 col-end-3 row-span-full object-cover" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
 
-        <span class="m-2 col-start-3 col-end-3 row-start-2 row-end-2">
-            <span class="flex flex-col font-bold font-gilroy text-primary h-auto">
-                <span class="">Santiago de los caballeros (STI) a </span>
-                    <span class="">Santiago de Chile (SCL)</span>
-            </span>
-            <span class="flex h-auto items-center gap-2">
-                <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
-                <span class="font-gilroy text-d3 text-primary  ">
-                    Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024
+            <span class="m-2
+            xs:col-start-3 xs:col-end-3 xs:row-start-2 xs:row-end-2
+            sm:col-start-3 sm:col-end-3 sm:row-start-2 sm:row-end-2
+            md:!col-start-3 md:!col-end-3 md:!row-start-2 md:row-end-2
+            md-1248:col-start-3 md-1248:col-end-3 md-1248:row-start-2 md-1248:row-end-2
+            lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-2
+            flex flex-col gap-1 ">
+                <span class={getTypography('caption-small','caption','font-gilroy text-primary h-auto')}>
+                    <span class="">Santiago de los caballeros (STI) a</span><br>
+                        <span class="">Santiago de Chile (SCL)</span>
+                </span>
+                <span class="flex h-auto items-center gap-2">
+                    <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
+                    <span class={getTypography('body-small')} >
+                        Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024
+                    </span>
                 </span>
             </span>
-        </span>
 
-
-<span class="m-2 col-start-3 col-end-3 row-start-3 row-end-3">
-    <span class="flex flex-col items-end">
-        <span class="font-gilroy text-b text-grey-600 text-h3 line-through self-end">USD 287</span>
-        <span class="flex flex-row gap-16">
-            <span class="font-gilroy text-primary text-h2">
-                <span class="font-suisse text-d3 text-primary ">desde <span class="font-gilroy font-bold  text-primary text-20/32 text-u2">USD </span><span class="font-gilroy font-bold text-u2 ">249<sup>*</sup></span>
+            <span class="m-2 
+            xs:col-start-3 xs:col-end-3 xs:row-start-3 xs:row-end-3 
+            xs-567:col-start-4 xs-567:col-end-4 xs-567:row-start-2 xs-567:row-end-2 
+            sm:col-start-4 sm:col-end-4 sm:row-start-2 sm:row-end-2 
+            md:!col-start-3 md:col-end-3 md:!row-start-3 md:!row-end-3
+            md-1248:!col-start-4 md-1248:!col-end-4 md-1248:!row-start-2 md-1248:!row-end-2 
+            lg:!col-start-4 lg:!col-end-4 lg:!row-start-2 lg:!row-end-2 
+            ">
+                <span class="flex flex-col items-end ">
+                    <span class={getTypography('caption-small','display-tiny','font-gilroy text-grey-600 line-through self-end md:text-u1')}>USD 287</span>
+                    <span class="flex flex-row gap-16">
+                        <span class={getTypography('body-small')}>desde 
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>USD</span>
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>1.000.249<sup>*</sup></span>
+                    </span>
+                    </span>
                 </span>
+            
             </span>
-        </span>
-    </span>
- 
-</span>
        
     </a>
 </li>
 
 
+<li class="w-full h-full">
+    <a class="
+        grid overflow-hidden
+        xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
+        xs-567:grid-cols-[8px_96px_auto_auto_8px] xs-567:grid-rows-[8px_auto_8px] xs-567:items-center 
+        sm:grid-cols-[8px_96px_auto_auto_8px] sm:grid-rows-[8px_auto_8px] 
+        md:!grid-cols-[8px_128px_auto_8px] md:!grid-rows-[8px_auto_auto_8px] 
+        md-1248:!grid-cols-[8px_124px_auto_auto_8px] md-1248:!grid-rows-[8px_auto_8px]
+        lg:!grid-cols-[8px_124px_auto_auto_8px] lg:!grid-rows-[8px_auto_8px]
+        outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight" href="#googl" role="button" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
+            <img class="w-full h-full col-start-1 col-end-3 row-span-full object-cover" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
+
+            <span class="m-2
+            xs:col-start-3 xs:col-end-3 xs:row-start-2 xs:row-end-2
+            sm:col-start-3 sm:col-end-3 sm:row-start-2 sm:row-end-2
+            md:!col-start-3 md:!col-end-3 md:!row-start-2 md:row-end-2
+            md-1248:col-start-3 md-1248:col-end-3 md-1248:row-start-2 md-1248:row-end-2
+            lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-2
+            flex flex-col gap-1 ">
+                <span class={getTypography('caption-small','caption','flex flex-col font-gilroy text-primary h-auto')}>
+                    <span class="">Santiago de los caballeros (STI) a</span>
+                        <span class="">Santiago de Chile (SCL)</span>
+                </span>
+                <span class="flex h-auto items-center gap-2">
+                    <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
+                    <span class={getTypography('body-small')} >
+                        Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024
+                    </span>
+                </span>
+            </span>
+
+            <span class="m-2 
+            xs:col-start-3 xs:col-end-3 xs:row-start-3 xs:row-end-3 
+            xs-567:col-start-4 xs-567:col-end-4 xs-567:row-start-2 xs-567:row-end-2 
+            sm:col-start-4 sm:col-end-4 sm:row-start-2 sm:row-end-2 
+            md:!col-start-3 md:col-end-3 md:!row-start-3 md:!row-end-3
+            md-1248:!col-start-4 md-1248:!col-end-4 md-1248:!row-start-2 md-1248:!row-end-2 
+            lg:!col-start-4 lg:!col-end-4 lg:!row-start-2 lg:!row-end-2 
+            ">
+                <span class="flex flex-col items-end ">
+                    <span class={getTypography('caption-small','display-tiny','font-gilroy text-grey-600 line-through self-end md:text-u1')}>USD 287</span>
+                    <span class="flex flex-row gap-16">
+                        <span class={getTypography('body-small')}>desde 
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>USD</span>
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>1.000.249<sup>*</sup></span>
+                    </span>
+                    </span>
+                </span>
+            
+            </span>
+       
+    </a>
+</li>
 
 
+<li class="w-full h-full">
+    <a class="
+        grid overflow-hidden
+        xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
+        xs-567:grid-cols-[8px_96px_auto_auto_8px] xs-567:grid-rows-[8px_auto_8px] xs-567:items-center 
+        sm:grid-cols-[8px_96px_auto_auto_8px] sm:grid-rows-[8px_auto_8px] 
+        md:!grid-cols-[8px_128px_auto_8px] md:!grid-rows-[8px_auto_auto_8px] 
+        md-1248:!grid-cols-[8px_124px_auto_auto_8px] md-1248:!grid-rows-[8px_auto_8px]
+        lg:!grid-cols-[8px_124px_auto_auto_8px] lg:!grid-rows-[8px_auto_8px]
+        outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight" href="#googl" role="button" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
+            <img class="w-full h-full col-start-1 col-end-3 row-span-full object-cover" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
 
-<li class=""><a class="custom-fares h-full w-full lg:!w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight grid overflow-hidden xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] md:grid-cols-[8px_128px_auto_8px] md:grid-rows-[8px_auto_auto_8px] lg:grid-cols-[8px_128px_auto_8px] lg:grid-rows-[8px_auto_8px]"  href="https://shopping.copaair.com/?roundtrip=true&adults=1&children=0&infants=0&sf=gs&langid=es&date1=2024-10-10&date2=2024-10-17&promocode=&area1=STI&area2=PTY&advanced_air_search=false&flexible_dates_v2=false&origin=EM" role="button" trfx-booking="" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
-    <img class="w-full h-full object-cover col-start-1 col-end-3 row-span-full" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
-    
-    <span class="flex flex-col sm:flex-row md:flex-col lg:flex-row col-start-3 row-start-2 !ml-7 lg:!ml-4 !my-8 !gap-8">
-        <span class="flex flex-col justify-center">
-            <span class="font-gilroy font-bold text-primary  h-auto">Santiago de los Caballeros (STI)</span><span class="font-gilroy font-bold text-primary  h-auto mb-[8px]">a Panamá (PTY)</span><span class="flex h-auto gap-[4px] items-center"><img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date"><span class="font-gilroy text-d3 text-primary  ">Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024</span></span></span><span class="flex flex-col self-center "><span class="font-gilroy text-b text-grey-600 text-h3 line-through self-end">USD 459</span><span class="flex flex-row gap-16"><span class="font-gilroy text-primary text-h2"><span class="font-suisse text-d3 text-primary ">desde <span class="font-gilroy font-bold  text-primary text-20/32 text-u2">USD </span><span class="font-gilroy font-bold text-u2 ">383<sup>*</sup></span></span></span></span></a></li>
-            <li class=""><a class="custom-fares h-full w-full lg:!w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight grid overflow-hidden xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] md:grid-cols-[8px_128px_auto_8px] md:grid-rows-[8px_auto_auto_8px] lg:grid-cols-[8px_128px_auto_8px] lg:grid-rows-[8px_auto_8px]"  href="https://shopping.copaair.com/?roundtrip=true&adults=1&children=0&infants=0&sf=gs&langid=es&date1=2024-10-10&date2=2024-10-17&promocode=&area1=SAL&area2=PTY&advanced_air_search=false&flexible_dates_v2=false&origin=EM" role="button" trfx-booking="" data-oac="SAL" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 249" data-return-date="2024-10-17" data-title="San Salvador a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD"><img class="w-full h-full object-cover col-start-1 col-end-3 row-span-full" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" ><span class="flex flex-col sm:flex-row md:flex-col lg:flex-row col-start-3 row-start-2 !ml-7 lg:!ml-4 !my-8 !gap-8"><span class="flex flex-col justify-center"><span class="font-gilroy font-bold text-primary  h-auto">San Salvador (SAL)</span><span class="font-gilroy font-bold text-primary  h-auto mb-[8px]">a Panamá (PTY)</span><span class="flex h-auto gap-[4px] items-center"><img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date"><span class="font-gilroy text-d3 text-primary  ">Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024</span></span></span><span class="flex flex-col self-center "><span class="font-gilroy text-b text-grey-600 text-h3 line-through self-end">USD 287</span><span class="flex flex-row gap-16"><span class="font-gilroy text-primary text-h2"><span class="font-suisse text-d3 text-primary ">desde <span class="font-gilroy font-bold  text-primary text-20/32 text-u2">USD </span><span class="font-gilroy font-bold text-u2 ">249<sup>*</sup></span></span></span></span></a></li>
-<li class=""><a class="custom-fares h-full w-full lg:!w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight grid overflow-hidden xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] md:grid-cols-[8px_128px_auto_8px] md:grid-rows-[8px_auto_auto_8px] lg:grid-cols-[8px_128px_auto_8px] lg:grid-rows-[8px_auto_8px]"  href="https://shopping.copaair.com/?roundtrip=true&adults=1&children=0&infants=0&sf=gs&langid=es&date1=2024-10-10&date2=2024-10-17&promocode=&area1=MEC&area2=PTY&advanced_air_search=false&flexible_dates_v2=false&origin=EM" role="button" trfx-booking="" data-oac="MEC" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 307" data-return-date="2024-10-17" data-title="Manta a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD"><img class="w-full h-full object-cover col-start-1 col-end-3 row-span-full" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" ><span class="flex flex-col sm:flex-row md:flex-col lg:flex-row col-start-3 row-start-2 !ml-7 lg:!ml-4 !my-8 !gap-8"><span class="flex flex-col justify-center"><span class="font-gilroy font-bold text-primary  h-auto">Manta (MEC)</span><span class="font-gilroy font-bold text-primary  h-auto mb-[8px]">a Panamá (PTY)</span><span class="flex h-auto gap-[4px] items-center"><img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date"><span class="font-gilroy text-d3 text-primary  ">Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024</span></span></span><span class="flex flex-col self-center "><span class="font-gilroy text-b text-grey-600 text-h3 line-through self-end">USD 416</span><span class="flex flex-row gap-16"><span class="font-gilroy text-primary text-h2"><span class="font-suisse text-d3 text-primary ">desde <span class="font-gilroy font-bold  text-primary text-20/32 text-u2">USD </span><span class="font-gilroy font-bold text-u2 ">307<sup>*</sup></span></span></span></span></a></li>
-<li class=""><a class="custom-fares h-full w-full lg:!w-[600px] outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight grid overflow-hidden xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] sm:grid-cols-[8px_96px_auto_8px] sm:grid-rows-[8px_auto_8px] md:grid-cols-[8px_128px_auto_8px] md:grid-rows-[8px_auto_auto_8px] lg:grid-cols-[8px_128px_auto_8px] lg:grid-rows-[8px_auto_8px]"  href="https://shopping.copaair.com/?roundtrip=true&adults=1&children=0&infants=0&sf=gs&langid=es&date1=2024-10-10&date2=2024-10-17&promocode=&area1=SAP&area2=PTY&advanced_air_search=false&flexible_dates_v2=false&origin=EM" role="button" trfx-booking="" data-oac="SAP" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 312" data-return-date="2024-10-17" data-title="San Pedro Sula a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD"><img class="w-full h-full object-cover col-start-1 col-end-3 row-span-full" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" ><span class="flex flex-col sm:flex-row md:flex-col lg:flex-row col-start-3 row-start-2 !ml-7 lg:!ml-4 !my-8 !gap-8"><span class="flex flex-col justify-center"><span class="font-gilroy font-bold text-primary  h-auto">San Pedro Sula (SAP)</span><span class="font-gilroy font-bold text-primary  h-auto mb-[8px]">a Panamá (PTY)</span><span class="flex h-auto gap-[4px] items-center"><img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date"><span class="font-gilroy text-d3 text-primary  ">Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024</span></span></span><span class="flex flex-col self-center "><span class="font-gilroy text-b text-grey-600 text-h3 line-through self-end">USD 402</span><span class="flex flex-row gap-16"><span class="font-gilroy text-primary text-h2"><span class="font-suisse text-d3 text-primary ">desde <span class="font-gilroy font-bold  text-primary text-20/32 text-u2">USD </span><span class="font-gilroy font-bold text-u2 ">312<sup>*</sup></span></span></span></span></a></li>
+            <span class="m-2
+            xs:col-start-3 xs:col-end-3 xs:row-start-2 xs:row-end-2
+            sm:col-start-3 sm:col-end-3 sm:row-start-2 sm:row-end-2
+            md:!col-start-3 md:!col-end-3 md:!row-start-2 md:row-end-2
+            md-1248:col-start-3 md-1248:col-end-3 md-1248:row-start-2 md-1248:row-end-2
+            lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-2
+            flex flex-col gap-1 ">
+                <span class={getTypography('caption-small','caption','font-gilroy text-primary h-auto')}>
+                    <span class="">Santiago de los caballeros (STI) a</span><br>
+                        <span class="">Santiago de Chile (SCL)</span>
+                </span>
+                <span class="flex h-auto items-center gap-2">
+                    <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
+                    <span class={getTypography('body-small')} >
+                        Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024
+                    </span>
+                </span>
+            </span>
+
+            <span class="m-2 
+            xs:col-start-3 xs:col-end-3 xs:row-start-3 xs:row-end-3 
+            xs-567:col-start-4 xs-567:col-end-4 xs-567:row-start-2 xs-567:row-end-2 
+            sm:col-start-4 sm:col-end-4 sm:row-start-2 sm:row-end-2 
+            md:!col-start-3 md:col-end-3 md:!row-start-3 md:!row-end-3
+            md-1248:!col-start-4 md-1248:!col-end-4 md-1248:!row-start-2 md-1248:!row-end-2 
+            lg:!col-start-4 lg:!col-end-4 lg:!row-start-2 lg:!row-end-2 
+            ">
+                <span class="flex flex-col items-end ">
+                    <span class={getTypography('caption-small','display-tiny','font-gilroy text-grey-600 line-through self-end md:text-u1')}>USD 287</span>
+                    <span class="flex flex-row gap-16">
+                        <span class={getTypography('body-small')}>desde 
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>USD</span>
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>1.000.249<sup>*</sup></span>
+                    </span>
+                    </span>
+                </span>
+            
+            </span>
+       
+    </a>
+</li>
+
+
+<li class="w-full h-full">
+    <a class="
+        grid overflow-hidden
+        xs:grid-cols-[8px_128px_auto_8px] xs:grid-rows-[8px_auto_auto_8px] 
+        xs-567:grid-cols-[8px_96px_auto_auto_8px] xs-567:grid-rows-[8px_auto_8px] xs-567:items-center 
+        sm:grid-cols-[8px_96px_auto_auto_8px] sm:grid-rows-[8px_auto_8px] 
+        md:!grid-cols-[8px_128px_auto_8px] md:!grid-rows-[8px_auto_auto_8px] 
+        md-1248:!grid-cols-[8px_124px_auto_auto_8px] md-1248:!grid-rows-[8px_auto_8px]
+        lg:!grid-cols-[8px_124px_auto_auto_8px] lg:!grid-rows-[8px_auto_8px]
+        outline outline-1 rounded-2xl outline-grey-300 hover:outline-primary-ultralight focus:outline-2 hover:outline-2 focus:outline-primary-ultralight" href="#googl" role="button" data-oac="STI" data-dac="PTY" data-departure-date="2024-10-10" data-price="USD 383" data-return-date="2024-10-17" data-title="Santiago de los Caballeros a Panamá" data-sub="Itinerario: Ago 15, 2024 - Nov 30, 2024" data-promo-code="" data-site-edition="es" data-currency-code="USD">
+            <img class="w-full h-full col-start-1 col-end-3 row-span-full object-cover" src="https://www.copaair.com/promotions/airtrfx-lp/panama-increible/PTY-1-264x400.jpg " alt="Panamá" >
+
+            <span class="m-2
+            xs:col-start-3 xs:col-end-3 xs:row-start-2 xs:row-end-2
+            sm:col-start-3 sm:col-end-3 sm:row-start-2 sm:row-end-2
+            md:!col-start-3 md:!col-end-3 md:!row-start-2 md:row-end-2
+            md-1248:col-start-3 md-1248:col-end-3 md-1248:row-start-2 md-1248:row-end-2
+            lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-2
+            flex flex-col gap-1 ">
+                <span class={getTypography('caption-small','caption','flex flex-col font-gilroy text-primary h-auto')}>
+                    <span class="">Santiago de los caballeros (STI) a</span>
+                        <span class="">Santiago de Chile (SCL)</span>
+                </span>
+                <span class="flex h-auto items-center gap-2">
+                    <img src="https://www.copaair.com/promotions/destinations/icons/calendar-icon.svg" class="h-[10.3px] w-[11.6px]" alt="date">
+                    <span class={getTypography('body-small')} >
+                        Ida y vuelta<br>Ago 15, 2024 - Nov 30, 2024
+                    </span>
+                </span>
+            </span>
+
+            <span class="m-2 
+            xs:col-start-3 xs:col-end-3 xs:row-start-3 xs:row-end-3 
+            xs-567:col-start-4 xs-567:col-end-4 xs-567:row-start-2 xs-567:row-end-2 
+            sm:col-start-4 sm:col-end-4 sm:row-start-2 sm:row-end-2 
+            md:!col-start-3 md:col-end-3 md:!row-start-3 md:!row-end-3
+            md-1248:!col-start-4 md-1248:!col-end-4 md-1248:!row-start-2 md-1248:!row-end-2 
+            lg:!col-start-4 lg:!col-end-4 lg:!row-start-2 lg:!row-end-2 
+            ">
+                <span class="flex flex-col items-end ">
+                    <span class={getTypography('caption-small','display-tiny','font-gilroy text-grey-600 line-through self-end md:text-u1')}>USD 287</span>
+                    <span class="flex flex-row gap-16">
+                        <span class={getTypography('body-small')}>desde 
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>USD</span>
+                        <span class={getTypography('caption','display','xs-567:text-u1 md:text-u2')}>1.000.249<sup>*</sup></span>
+                    </span>
+                    </span>
+                </span>
+            
+            </span>
+       
+    </a>
+</li>

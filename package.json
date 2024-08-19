@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && tailwindcss -i ./src/app.css -o ./dist/custom-fares-v4.css --minify",
+		"build": "vite build && tailwindcss -i ./src/app.css -o ./dist/custom-fares-v5.css --minify",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -20,7 +20,7 @@
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.16",
 		"bits-ui": "^0.21.13",
-		"clx": "^1.0.0",
+		"clsx": "^2.1.1",
 		"cmds-tailwind-styles": "^1.2.6",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
